@@ -17,7 +17,7 @@ using Terraria.Utilities;
 
 namespace MagicStorage.NPCs {
 	[AutoloadHead]
-	internal class Golem : ModNPC {
+	public class Golem : ModNPC {
 		public bool newHelpTextAvailable;
 		public bool pendingNewHelpTextCheck;
 
